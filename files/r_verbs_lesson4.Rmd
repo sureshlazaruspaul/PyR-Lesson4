@@ -1,0 +1,161 @@
+---
+title: "R Verbs, thus far..."
+author: "Suresh Paul"
+date: "`r Sys.Date()`"
+output: 
+  pdf_document:
+    number_sections: true
+---
+
+
+
+# Lesson 4: Visualization in base R
+
+
+## Scatter Plot
+
+
+-   plot()
+
+
+       
+
+
+## Histogram
+
+-   hist()
+
+
+
+***
+
+
+
+# Lesson 3: DplyR essentials
+
+
+## Simple DplyR Verbs
+
+
+-   select()
+-   filter()
+-   arrange()
+    -   desc()
+-   mutate()
+-   summarise()
+-   group_by(), ungroup()
+-   rename(), rename_with()
+-   top_n()
+-   distinct()
+
+
+## Advanced DplyR Verbs
+
+
+-   merge datasets into one
+    -   left_join()
+    -   right_join()
+    -   inner_join()
+    -   full_join()
+
+
+
+
+
+
+
+***
+
+
+
+# Lesson 2: Console Programming and Basic R
+
+
+## Common R Verbs
+
+-   length()
+-   class()
+-   typeof()
+-   names()
+-   ifelse()
+-   print()
+-   paste()
+-   paste0()
+-   seq(from = , to =, by = )
+    -   each = , times =
+
+## Statistics/Math Verbs
+
+-   sum()
+-   mean()
+-   median()
+-   sd()
+-   min()
+-   max()
+-   range()
+-   quantile()
+    -   na.rm = TRUE / FALSE
+-   log()
+-   exp()
+-   abs()
+-   summary()
+-   round()
+-   floor()
+-   ceiling()
+
+
+
+## Missing Data Verbs
+
+-   is.na()
+-   !is.na()
+
+
+## Text Verbs
+
+-   toupper()
+-   tolower()
+
+
+## Factor Verbs
+
+-   factor()
+    -   as.factor()
+        -   order = TRUE / FALSE
+        -   levels = c()
+-   summary()
+
+
+
+## Relational operators
+
+-   <, >, <=, >=, ==, !=
+
+## Logical operators
+
+-   &, |
+
+## Data.frame Verbs
+
+-   data.frame()
+    -   as.data.frame()
+-   View()
+-   str()
+-   head()
+-   tail()
+-   subset()
+-   order()
+
+## Plot Verbs
+
+-   plot()
+
+## Package Verbs
+
+-   *R*, *RStudio*, *Rtools*, *MiKTeX*
+-   install.packages()
+    -   summarytools, rmarkdown, tidyverse, dplyr, ggplot2, devtools, utils
+-   library()
+
+
+***
